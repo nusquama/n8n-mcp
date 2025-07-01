@@ -30,7 +30,7 @@ services:
     
     # Port mapping
     ports:
-      - "${PORT:-3070}:3000"
+     - "3070:3000"  
     
     # Resource limits
     deploy:
